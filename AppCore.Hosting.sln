@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Tests", "te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCore.Hosting.Abstractions", "src\AppCore.Hosting.Abstractions\AppCore.Hosting.Abstractions.csproj", "{2574906E-4B5A-4DBB-906D-8B78F9C51F26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCore.Hosting.Microsoft.Extensions", "src\AppCore.Hosting.Microsoft.Extensions\AppCore.Hosting.Microsoft.Extensions.csproj", "{11E3F96E-6846-4CD1-882A-5A09D93C694F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Microsoft.Extensions.Tests", "test\AppCore.Hosting.Microsoft.Extensions.Tests\AppCore.Hosting.Microsoft.Extensions.Tests.csproj", "{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{2574906E-4B5A-4DBB-906D-8B78F9C51F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2574906E-4B5A-4DBB-906D-8B78F9C51F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2574906E-4B5A-4DBB-906D-8B78F9C51F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E3F96E-6846-4CD1-882A-5A09D93C694F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E3F96E-6846-4CD1-882A-5A09D93C694F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E3F96E-6846-4CD1-882A-5A09D93C694F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E3F96E-6846-4CD1-882A-5A09D93C694F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
