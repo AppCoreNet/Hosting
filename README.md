@@ -1,9 +1,12 @@
 AppCore .NET Hosting
 --------------------
 
-[![Build Status](https://dev.azure.com/AppCoreNet/Hosting/_apis/build/status/AppCoreNet.Hosting?branchName=dev)](https://dev.azure.com/AppCoreNet/Hosting/_build/latest?definitionId=7&branchName=dev)
+[![Build Status](https://dev.azure.com/AppCoreNet/Logging/_apis/build/status/AppCoreNet.Hosting%20CI?branchName=dev)](https://dev.azure.com/AppCoreNet/Hosting/_build/latest?definitionId=7&branchName=dev)
+![Azure DevOps tests (compact)](https://img.shields.io/azure-devops/tests/AppCoreNet/Hosting/7?compact_message)
+![Azure DevOps coverage (branch)](https://img.shields.io/azure-devops/coverage/AppCoreNet/Hosting/7/dev)
+![Nuget](https://img.shields.io/nuget/v/AppCore.Hosting.Abstractions)
 
-This repository contains application startup and hosting abstractions and implementations targeting the .NET Framework and .NET Core.
+This repository contains abstractions and implementations for application startup and hosting. It targets the .NET Framework and .NET Core.
 
 All artifacts are licensed under the [MIT license](LICENSE). You are free to use them in open-source or commercial projects as long as you keep the copyright notice intact when redistributing or otherwise reusing our artifacts.
 

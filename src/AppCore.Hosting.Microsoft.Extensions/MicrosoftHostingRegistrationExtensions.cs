@@ -1,14 +1,25 @@
-﻿using AppCore.DependencyInjection.Facilities;
+// Licensed under the MIT License.
+// Copyright (c) 2018-2020 the AppCore .NET project.
+
+using AppCore.DependencyInjection.Facilities;
 using AppCore.Hosting;
 using AppCore.Hosting.Microsoft.Extensions;
 
 // ReSharper disable once CheckNamespace
 namespace AppCore.DependencyInjection
 {
+    /// <summary>
+    /// Provides extension methods to register Microsoft.Extensions.Hosting facility extension.
+    /// </summary>
     public static class MicrosoftHostingRegistrationExtensions
     {
-        public static IFacilityBuilder<IBackgroundServiceFacility> AddMicrosoftHosting(
-            this IFacilityBuilder<IBackgroundServiceFacility> builder)
+        /// <summary>
+        /// Registers adapters for Microsoft.Extensions.Hosting.
+        /// </summary>
+        /// <param name="builder"></param>
+        /// <returns></returns>
+        public static IFacilityBuilder<IHostingFacility> UseMicrosoftExtensions(
+            this IFacilityBuilder<IHostingFacility> builder)
         {
             return builder.Add<MicrosoftHostingExtension>();
         }
