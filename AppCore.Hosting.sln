@@ -7,11 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting", "src\AppC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Tests", "test\AppCore.Hosting.Tests\AppCore.Hosting.Tests.csproj", "{91574C83-3ACC-4A81-B589-79FB674569A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCore.Hosting.Abstractions", "src\AppCore.Hosting.Abstractions\AppCore.Hosting.Abstractions.csproj", "{2574906E-4B5A-4DBB-906D-8B78F9C51F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Abstractions", "src\AppCore.Hosting.Abstractions\AppCore.Hosting.Abstractions.csproj", "{2574906E-4B5A-4DBB-906D-8B78F9C51F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCore.Hosting.Microsoft.Extensions", "src\AppCore.Hosting.Microsoft.Extensions\AppCore.Hosting.Microsoft.Extensions.csproj", "{11E3F96E-6846-4CD1-882A-5A09D93C694F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Microsoft.Extensions", "src\AppCore.Hosting.Microsoft.Extensions\AppCore.Hosting.Microsoft.Extensions.csproj", "{11E3F96E-6846-4CD1-882A-5A09D93C694F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Microsoft.Extensions.Tests", "test\AppCore.Hosting.Microsoft.Extensions.Tests\AppCore.Hosting.Microsoft.Extensions.Tests.csproj", "{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Plugins", "src\AppCore.Hosting.Plugins\AppCore.Hosting.Plugins.csproj", "{F6A1DDD1-D423-43E0-BB90-8982D8DD2B48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Plugins.Abstractions", "src\AppCore.Hosting.Plugins.Abstractions\AppCore.Hosting.Plugins.Abstractions.csproj", "{247D9726-79F9-49F7-B882-69EDE0E06258}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Plugins.Tests", "test\AppCore.Hosting.Plugins.Tests\AppCore.Hosting.Plugins.Tests.csproj", "{338A0485-C4E6-4CD4-B2E4-8DE3E0D3A279}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Plugins.TestPlugin", "test\AppCore.Hosting.Plugins.TestPlugin\AppCore.Hosting.Plugins.TestPlugin.csproj", "{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF2A9BF-4527-4805-B19F-97F6E9C4EF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A1DDD1-D423-43E0-BB90-8982D8DD2B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A1DDD1-D423-43E0-BB90-8982D8DD2B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A1DDD1-D423-43E0-BB90-8982D8DD2B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A1DDD1-D423-43E0-BB90-8982D8DD2B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247D9726-79F9-49F7-B882-69EDE0E06258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247D9726-79F9-49F7-B882-69EDE0E06258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247D9726-79F9-49F7-B882-69EDE0E06258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247D9726-79F9-49F7-B882-69EDE0E06258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338A0485-C4E6-4CD4-B2E4-8DE3E0D3A279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338A0485-C4E6-4CD4-B2E4-8DE3E0D3A279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338A0485-C4E6-4CD4-B2E4-8DE3E0D3A279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338A0485-C4E6-4CD4-B2E4-8DE3E0D3A279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
