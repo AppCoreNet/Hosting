@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Plugins.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Plugins.TestPlugin", "test\AppCore.Hosting.Plugins.TestPlugin\AppCore.Hosting.Plugins.TestPlugin.csproj", "{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore.Hosting.Plugins.TestPlugin2", "test\AppCore.Hosting.Plugins.TestPlugin2\AppCore.Hosting.Plugins.TestPlugin2.csproj", "{79A7EB89-11EA-4B74-9C51-C7AB522947DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B519B35-EEA6-4F18-B1BF-BF3CA6FBE979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A7EB89-11EA-4B74-9C51-C7AB522947DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A7EB89-11EA-4B74-9C51-C7AB522947DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A7EB89-11EA-4B74-9C51-C7AB522947DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A7EB89-11EA-4B74-9C51-C7AB522947DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
